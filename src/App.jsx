@@ -1,6 +1,6 @@
 import './App.css'
-import Detail from './section/detail/detail'
-import Header from './section/header/Header'
+import Detail from './section/detail/Detail.jsx'
+import Header from './section/header/Header.jsx'
 
 function App() {
 
