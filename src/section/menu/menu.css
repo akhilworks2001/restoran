@@ -1,0 +1,14 @@
+.nav-pills .nav-item .active {
+    border-bottom: 2px solid var(--primary);
+}
+
+.menu-section {
+    background-color: white;
+    padding: 100px 1rem;
+}
+
+.btn-nostyle {
+    background-color: transparent !important;
+    border: none;
+}
+

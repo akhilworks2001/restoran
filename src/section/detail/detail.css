@@ -1,11 +1,9 @@
-.detail-section {
-    background-color: var(--light);
-}
+
 
 /* Main Section Styling */
 .detail-section {
     padding: 100px 1rem;
-    background: #f8f9fa;
+    background: white;
   }
   
   /* Card Wrapper */

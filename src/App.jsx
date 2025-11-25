@@ -1,6 +1,9 @@
 import './App.css'
-import Detail from './section/detail/Detail.jsx'
-import Header from './section/header/Header.jsx'
+import Detail from './section/detail/Detail.jsx';
+import Header from './section/header/Header.jsx';
+import About from './section/about/About';
+import Menu from './section/menu/Menu';
+import Booking from './section/booking/Booking';
 
 function App() {
 
@@ -9,6 +12,9 @@ function App() {
       <div>
         <Header />
         <Detail />
+        <About />
+        <Menu />
+        <Booking />
       </div>
     </>
   )

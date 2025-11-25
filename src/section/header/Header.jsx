@@ -5,8 +5,6 @@ import heroIcon from "../../assets/hero/hero.png";
 
 function Header() {
 
-  const [open, setOpen] = useState(false);
-
   return (
     <header className="header-section position-relative p-0">
 
