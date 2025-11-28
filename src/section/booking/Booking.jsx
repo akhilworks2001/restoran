@@ -25,7 +25,7 @@ function Reservation() {
 
   return (
     <>
-      <div className="booking-section">
+      <div className="booking-section section">
         <div className="py-5 px-0" data-aos="fade-up" data-aos-delay="100">
           <div className="row g-0">
 
