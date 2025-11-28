@@ -1,0 +1,38 @@
+.nav-pills .nav-item .active {
+    border-bottom: 2px solid var(--primary);
+}
+
+.menu-section {
+    background-color: white;
+    padding: 100px 1rem;
+}
+
+.btn-nostyle {
+    background-color: transparent !important;
+    border: none;
+}
+
+
+.menu-item-box {
+    transition: transform 0.3s ease;
+  }
+  
+  .menu-item-box:hover {
+    transform: translateX(8px);
+  }
+  
+
+  /* Fade-out */
+.fade-out {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Fade-in */
+  .fade-in {
+    opacity: 1;
+    transform: translateY(0px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
