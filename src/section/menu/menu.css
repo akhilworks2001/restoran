@@ -12,6 +12,7 @@
     border: none;
 }
 
+<<<<<<< HEAD
 
 .menu-item-box {
     transition: transform 0.3s ease;
@@ -36,3 +37,5 @@
     transition: opacity 0.3s ease, transform 0.3s ease;
   }
   
+=======
+>>>>>>> fe5028529a3fcd3d6367a0c48fb821693f93e0cc
