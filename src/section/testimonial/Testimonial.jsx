@@ -56,7 +56,7 @@ export default function Testimonial() {
         <div className="testimonial-wrapper">
         <Slider {...settings}>
           {testimonials.map((img, index) => (
-            <div key={index} className="testimonial-card">
+            <div key={index} className="testimonial-card mb-3">
               <i className="fa fa-quote-left fa-2x quote-icon"></i>
 
               <p className="testi-text">
