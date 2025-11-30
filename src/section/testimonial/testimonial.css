@@ -1,88 +1,89 @@
 .testimonial-section {
-    padding: 100px 1rem;
-  }
-  
-  /* Slick margins */
+  padding: 100px 1rem !important;
+}
+
+/* Slick margins */
+.slick-slide > div {
+  margin: 0 20px !important;
+}
+
+/* Testimonial card */
+.testimonial-card {
+  background-color: transparent !important;
+  color: black !important;
+  transition: all 1s ease !important;
+  border: solid rgb(219, 216, 216) 1px !important;
+  padding: 20px !important;
+}
+
+.testimonial-card i {
+  color: var(--primary) !important;
+}
+
+/* Active slide styling */
+.slick-current .testimonial-card {
+  background-color: var(--primary) !important;
+  color: white !important;
+}
+
+.slick-current .testimonial-card i {
+  color: white !important;
+}
+
+/* Mobile spacing */
+@media (max-width: 768px) {
   .slick-slide > div {
-    margin: 0 20px;
+    margin: 0 5px !important;
   }
-  
-  /* Testimonial card */
-  .testimonial-card {
-    background-color: transparent;
-    color: black;
-    transition: all 1s ease;
-    border: solid rgb(219, 216, 216) 1px;
-    padding: 20px;
-  }
-  
-  .testimonial-card i {
-    color: var(--primary) !important;
-  }
-  
-  /* Active slide styling */
-  .slick-current .testimonial-card {
-    background-color: var(--primary) !important;
-    color: white !important;
-  }
-  
-  .slick-current .testimonial-card i {
-    color: white !important;
-  }
-  /* Mobile spacing */
-  @media (max-width: 768px) {
-    .slick-slide > div {
-      margin: 0 5px !important;
-    }
-  }
-  
-  /* Wrapper fix to make breakpoints work */
-  .testimonial-wrapper {
-    width: 100%;
-    max-width: 100% !important;
-    padding: 0 20px;
-  }
-  
-  /* Dots wrapper */
+}
+
+/* Wrapper fix to make breakpoints work */
+.testimonial-wrapper {
+  width: 100% !important;
+  max-width: 100% !important;
+  padding: 0 20px !important;
+}
+
+/* Dots wrapper */
 .slick-dots {
-  bottom: -40px; /* adjust distance below slider */
+  bottom: -40px !important;
 }
 
 /* Each dot (normal) */
 .slick-dots li button:before {
-  font-size: 10px;
-  color: #ccc;      /* inactive dot color */
-  opacity: 1;       /* make sure inactive dot is visible */
+  font-size: 10px !important;
+  color: #ccc !important;
+  opacity: 1 !important;
 }
 
 /* Active dot */
 .slick-dots li.slick-active button:before {
-  color: var(--primary);  /* your theme color */
-  font-size: 12px;        /* slightly larger size */
-  opacity: 1;
+  color: var(--primary) !important;
+  font-size: 12px !important;
+  opacity: 1 !important;
 }
 
 /* Space between dots */
 .slick-dots li {
-  margin: 0 6px;
+  margin: 0 6px !important;
 }
 
-/* For custom round dots instead of default icons */
+/* Custom round dots */
 .slick-dots li button {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  padding: 0;
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50% !important;
+  padding: 0 !important;
 }
 
 .slick-dots li button:before {
-  content: "";
-  width: 10px;
-  height: 10px;
-  background: #ccc;
-  border-radius: 50%;
+  content: "" !important;
+  width: 10px !important;
+  height: 10px !important;
+  background: #ccc !important;
+  border-radius: 50% !important;
 }
 
 .slick-dots li.slick-active button:before {
-  background: var(--primary);
+  background: var(--primary) !important;
 }
