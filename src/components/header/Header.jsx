@@ -19,7 +19,6 @@ function Header() {
           <button className="primary-btn">BOOK A TABLE</button>
         </div>
 
-        {/* ICON */}
         <div className="hero-icon-img">
           <img src={heroIcon} alt="" />
         </div>
