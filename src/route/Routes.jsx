@@ -3,9 +3,9 @@ import Home from "../pages/home/Home";
 import About from "../pages/about/About";
 import Contact from "../pages/contact/Contact";
 import Menu from "../pages/menu/Menu";
-import Booking from "../pages/More/Booking";
-import Testimonial from "../pages/More/Testimonial";
-import Team from "../pages/More/Team";
+import Booking from "../pages/more/Booking";
+import Testimonial from "../pages/more/Testimonial";
+import Team from "../pages/more/Team";
 import Service from "../pages/service/Service";
 
 const AppRoutes = () => {
