@@ -87,6 +87,8 @@
 }
 
 
+
+
 /*** Navbar ***/
 .navbar-dark .navbar-nav .nav-link {
     position: relative;
@@ -101,9 +103,20 @@
 }
 
 .btn-primary {
-    background-color: var(--primary);
+    background-color: var(--primary) !important;
     border: none;
 }
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+
+  .nav-link.active {
+    color: #fea116 !important;
+  }
+  
 
 
 .sticky-top.navbar-dark .navbar-nav .nav-link {
