@@ -18,7 +18,6 @@ function Home() {
       <Booking />
       <Team />
       <Testimonial />
-      <Footer />
     </>
   )
 }

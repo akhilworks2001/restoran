@@ -1,9 +1,12 @@
 import React from 'react'
+import FoodMenu from '../../components/menu/Menu'
 
-function Menu() {
+function MenuPage() {
   return (
-    <div>Menu</div>
+    <div>
+      <FoodMenu />
+    </div>
   )
 }
 
-export default Menu
+export default MenuPage
