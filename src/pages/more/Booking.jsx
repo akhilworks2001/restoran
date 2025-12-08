@@ -1,9 +1,10 @@
 import React from 'react'
+import Booking from "../../components/booking/Booking"
 
-function Booking() {
+function BookingPage() {
   return (
-    <div>Booking</div>
+    <Booking />
   )
 }
 
-export default Booking
+export default BookingPage

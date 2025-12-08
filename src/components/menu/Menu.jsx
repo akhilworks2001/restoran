@@ -19,7 +19,6 @@ function FoodMenu() {
   useEffect(() => {
     AOS.init({
       duration: 800,
-      once: false,
       offset: 100,
     });
   }, []);

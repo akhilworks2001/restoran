@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Detail from "../../components/detail/Detail"
 
 function Service() {
   return (
-    <div>Service</div>
+    <div>
+      <Detail />
+      <Detail />
+    </div>
   )
 }
 

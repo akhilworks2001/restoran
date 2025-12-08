@@ -6,6 +6,7 @@ import Team from '../../components/team/Team';
 function AboutPage() {
   return (
     <>
+      
       <About />
       <Team />
     </>

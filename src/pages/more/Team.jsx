@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+import Team from "../../components/team/Team";
 
-function Team() {
+function TeamPage() {
   return (
-    <div>Team</div>
+    <>
+      <Team />
+    </>
+
   )
 }
 
-export default Team
+export default TeamPage

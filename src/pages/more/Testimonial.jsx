@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import Testimonial from "../../components/testimonial/Testimonial"
 
-function Testimonial() {
+function TestimonialPage() {
   return (
-    <div>Testimonial</div>
+    <Testimonial />
   )
 }
 
-export default Testimonial
+export default TestimonialPage
