@@ -4,8 +4,9 @@ const Contact = () => {
   return (
     <div className="container-xxl py-5 section">
       <div className="container">
-        
-        <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
+
+        {/* Heading */}
+        <div className="text-center" data-aos="fade-up" data-aos-delay="100">
           <h5 className="section-title ff-secondary text-center text-primary fw-normal">
             Contact Us
           </h5>
@@ -15,10 +16,10 @@ const Contact = () => {
         <div className="row g-4">
 
           {/* Contact Info */}
-          <div className="col-12">
+          <div className="col-12" data-aos="fade-up" data-aos-delay="200">
             <div className="row gy-4">
 
-              <div className="col-md-4">
+              <div className="col-md-4" data-aos="fade-up" data-aos-delay="300">
                 <h5 className="section-title ff-secondary fw-normal text-start text-primary">
                   Booking
                 </h5>
@@ -28,7 +29,7 @@ const Contact = () => {
                 </p>
               </div>
 
-              <div className="col-md-4">
+              <div className="col-md-4" data-aos="fade-up" data-aos-delay="400">
                 <h5 className="section-title ff-secondary fw-normal text-start text-primary">
                   General
                 </h5>
@@ -38,7 +39,7 @@ const Contact = () => {
                 </p>
               </div>
 
-              <div className="col-md-4">
+              <div className="col-md-4" data-aos="fade-up" data-aos-delay="500">
                 <h5 className="section-title ff-secondary fw-normal text-start text-primary">
                   Technical
                 </h5>
@@ -52,7 +53,7 @@ const Contact = () => {
           </div>
 
           {/* Map */}
-          <div className="col-md-6 wow fadeIn" data-wow-delay="0.1s">
+          <div className="col-md-6" data-aos="fade-right" data-aos-delay="600">
             <iframe
               title="Google Map"
               className="position-relative rounded w-100 h-100"
@@ -64,55 +65,51 @@ const Contact = () => {
           </div>
 
           {/* Contact Form */}
-          <div className="col-md-6">
-            <div className="wow fadeInUp" data-wow-delay="0.2s">
-              
-              <form>
-                <div className="row g-3">
+          <div className="col-md-6" data-aos="fade-left" data-aos-delay="700">
+            <form>
+              <div className="row g-3" data-aos="fade-up" data-aos-delay="800">
 
-                  <div className="col-md-6">
-                    <div className="form-floating">
-                      <input type="text" className="form-control" id="name" placeholder="Your Name" />
-                      <label htmlFor="name">Your Name</label>
-                    </div>
+                <div className="col-md-6">
+                  <div className="form-floating">
+                    <input type="text" className="form-control" id="name" placeholder="Your Name" />
+                    <label htmlFor="name">Your Name</label>
                   </div>
-
-                  <div className="col-md-6">
-                    <div className="form-floating">
-                      <input type="email" className="form-control" id="email" placeholder="Your Email" />
-                      <label htmlFor="email">Your Email</label>
-                    </div>
-                  </div>
-
-                  <div className="col-12">
-                    <div className="form-floating">
-                      <input type="text" className="form-control" id="subject" placeholder="Subject" />
-                      <label htmlFor="subject">Subject</label>
-                    </div>
-                  </div>
-
-                  <div className="col-12">
-                    <div className="form-floating">
-                      <textarea
-                        className="form-control"
-                        placeholder="Leave a message here"
-                        id="message"
-                        style={{ height: "150px" }}
-                      ></textarea>
-                      <label htmlFor="message">Message</label>
-                    </div>
-                  </div>
-
-                  <div className="col-12">
-                    <button className="btn btn-primary w-100 py-3" type="submit">
-                      Send Message
-                    </button>
-                  </div>
-
                 </div>
-              </form>
 
-            </div>
+                <div className="col-md-6">
+                  <div className="form-floating">
+                    <input type="email" className="form-control" id="email" placeholder="Your Email" />
+                    <label htmlFor="email">Your Email</label>
+                  </div>
+                </div>
+
+                <div className="col-12">
+                  <div className="form-floating">
+                    <input type="text" className="form-control" id="subject" placeholder="Subject" />
+                    <label htmlFor="subject">Subject</label>
+                  </div>
+                </div>
+
+                <div className="col-12">
+                  <div className="form-floating">
+                    <textarea
+                      className="form-control"
+                      placeholder="Leave a message here"
+                      id="message"
+                      style={{ height: "150px" }}
+                    ></textarea>
+                    <label htmlFor="message">Message</label>
+                  </div>
+                </div>
+
+                <div className="col-12">
+                  <button className="btn btn-primary w-100 py-3" type="submit">
+                    Send Message
+                  </button>
+                </div>
+
+              </div>
+            </form>
           </div>
 
         </div>
